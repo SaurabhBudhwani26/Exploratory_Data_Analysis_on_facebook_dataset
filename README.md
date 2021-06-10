@@ -1,5 +1,5 @@
 # Exploratory_Data_Analysis_on_facebook_dataset
-I have performed Exploratory Data Analysis on facebook dataset please have a look.
+I have performed Exploratory Data Analysis on facebook dataset have a look.
 
 INTRODUCTION
 
