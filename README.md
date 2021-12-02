@@ -7,7 +7,7 @@ I will be using Jupyter Notebook by creating an environment in Anaconda prompt, 
 Following is the code snippet to crate the anaconda environment:
  
  
-1) Load the data and impute missing values
+# 1) Load the data and impute missing values
 
 1.	Loading the data
 
@@ -36,13 +36,13 @@ We use mode/median to fill the null data because it gives better results when we
 Now we can see there are no null values
  
 
-2) Plot heatmap / correlation matrix on all the columns.
+# 2) Plot heatmap / correlation matrix on all the columns.
  I will here make a correlation matrix using corr() and then use seaborn to plot the heatmap
 
  This will give the following heat map kind of heat map
  Here we can see the green boxes show the features with positive correlation and the red show that the features that have negative correlation.
 
-3) Analysis based on gender of the users
+# 3) Analysis based on gender of the users
 
 What is composition of male and female users?
  
@@ -83,8 +83,8 @@ This gives distribution based on tenure values and gender
 Finally this bar graph shows the average values of tenure based on gender
 
 
-4) Analysis based on the least active users on Facebook
-5) 
+# 4) Analysis based on the least active users on Facebook
+
 # ● How many users have no friends?
  
 Here I applied the condition facebook_data['friend_count']==0 to get the rows with 0 friend_counts.
