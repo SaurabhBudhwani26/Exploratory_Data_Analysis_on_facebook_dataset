@@ -84,14 +84,15 @@ Finally this bar graph shows the average values of tenure based on gender
 
 
 4) Analysis based on the least active users on Facebook
-● How many users have no friends?
+5) 
+# ● How many users have no friends?
  
 Here I applied the condition facebook_data['friend_count']==0 to get the rows with 0 friend_counts.
 Shape[0] shows the number of rows which gives that 1962 users have 0 friends.
-● How many users did not like any posts?
+# ● How many users did not like any posts?
  
 22308 users have not liked any post.
-● How many users did not receive any likes?
+# ● How many users did not receive any likes?
  
 24428 users have not received any likes.
 
@@ -100,13 +101,14 @@ Shape[0] shows the number of rows which gives that 1962 users have 0 friends.
 
 Lets first explore some data based on gender
  
-● What is the average number of posts liked by users (based on gender) through web vs. mobile devices?
+# ● What is the average number of posts liked by users (based on gender) through web vs. mobile devices?
  
          
 I have saved this dataset as mean_likes.csv
 I grouped the data using gropuby() based on gender and the took the average of ‘mobile_likes’ and ‘www_likes’ columns to get the numbers specified in the question.
 This shows the average likes of the user from mobile vs from web based on gender.
-● What is the average number of likes received by users (based on gender) through web vs. mobile devices?
+
+# ● What is the average number of likes received by users (based on gender) through web vs. mobile devices?
  
  
 I have saved this file as mean_likes_received.csv
